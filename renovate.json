@@ -10,7 +10,6 @@
   "suppressNotifications": ["prEditedNotification"],
   "packageRules": [
     {
-      "description": "Disable major updates on docker-compose files for integration tests",
       "matchFileNames": [
         "docker-compose/cassandra/v3/docker-compose.yaml",
         "**/docker-compose.yaml",
