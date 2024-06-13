@@ -10,11 +10,6 @@
   "suppressNotifications": ["prEditedNotification"],
   "packageRules": [
     {
-      "matchFileNames": [
-        "docker-compose/cassandra/v3/docker-compose.yaml",
-        "**/docker-compose.yaml",
-        "docker-compose/**/docker-compose.yml"
-      ],
       "matchUpdateTypes": ["major"],
       "enabled": false
     }
