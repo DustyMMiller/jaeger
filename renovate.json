@@ -8,10 +8,7 @@
     "changelog:dependencies"
   ],
   "suppressNotifications": ["prEditedNotification"],
-  "packageRules": [
-    {
-      "matchUpdateTypes": ["major"],
-      "dependencyDashboardApproval": true
-    }
-  ]
+  "major": {
+    "enabled": false
+  }
 }
