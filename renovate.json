@@ -12,16 +12,11 @@
     {
       "description": "Disable major updates on docker-compose files for integration tests",
       "matchFileNames": [
-        "docker-compose/cassandra/v3/docker-compose.yaml",
-        "docker-compose/cassandra/v4/docker-compose.yaml",
-        "docker-compose/elasticsearch/v7/docker-compose.yaml",
-        "docker-compose/elasticsearch/v8/docker-compose.yaml",
         "docker-compose/**/docker-compose.yaml",
         "docker-compose/**/docker-compose.yml"
       ],
-      "major": {
-        "enabled": false
-      }
+      "matchUpdateTypes": ["major"],
+      "enabled": false
     }
   ]
 }
