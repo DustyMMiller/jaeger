@@ -12,8 +12,8 @@
     {
       "description": "Disable major updates on docker-compose files for integration tests",
       "matchFileNames": [
-        "docker-compose/*/docker-compose.yml",
-        "docker-compose/*/docker-compose.yaml"
+        "docker-compose/**/docker-compose.yml",
+        "docker-compose/**/docker-compose.yaml"
       ],
       "major": {
         "enabled": false
