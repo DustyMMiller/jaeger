@@ -8,7 +8,13 @@
     "changelog:dependencies"
   ],
   "suppressNotifications": ["prEditedNotification"],
-  "major": {
-    "enabled": false
-  }
+  "packageRules": [
+    {
+      "description": "Disable major updates on docker-compose files for integration tests",
+      "matchFileNames": ["docker-compose/**/docker-compose.yaml"],
+      "major": {
+        "enabled": false
+      }
+    }
+  ]
 }
